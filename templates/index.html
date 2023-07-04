@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Python Developer Portfolio</title>
+    <style>
+        /* CSS code for the Scandinavian style theme */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* CSS code for positioning the profile picture */
+.profile-picture {
+    float: left;
+    position: relative;
+    margin-right: 20px; /* Add some right margin for spacing between the image and text */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* CSS code for spacing around the text content */
+.main-content {
+    /* Adjust the top margin if necessary */
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+    </style>
+</head>
+<body>
+    <!-- Profile picture HTML code -->
+    <img class="profile-picture" src="{{ url_for('static', filename='images/me4.jpg') }}" alt="Profile Picture">
+
+    <!-- Content HTML code -->
+    <h1>Welcome to My Python Developer Portfolio</h1>
+    <p>
+        Hello! I am a beginner Python developer based in Cornwall, UK. I am passionate about coding and have experience in various Python frameworks and libraries. Below are some of my skills and projects:
+    </p>
+    <h2>Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>Flask</li>
+        <li>Pandas</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Git and Github</li>
+    </ul>
+    <h2>Projects</h2>
+    <ul>
+        <li>Personal Blog: Built a blog using Flask where I share my programming experiences. <a href="/blog">Blog</a></li>
+        <li>Data Analysis: Performed data analysis on a large dataset using Python and presented insights through visualizations.</li>
+    </ul>
+
+     <!-- Links to LinkedIn and Blog -->
+     <p>
+        Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/katherinecunniffe">LinkedIn</a>
+    </p>
+</body>
+</html>
+
+

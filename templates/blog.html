@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* CSS code for positioning the profile picture */
+.profile-picture {
+    float: left;
+    position: relative;
+    margin-right: 20px; /* Add some right margin for spacing between the image and text */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* CSS code for spacing around the text content */
+.main-content {
+    /* Adjust the top margin if necessary */
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+</style>
+    
+</head>
+<body>
+     <!-- Profile picture HTML code -->
+     <img class="profile-picture" src="{{ url_for('static', filename='images/me4.jpg') }}" alt="Profile Picture">
+
+    <!-- Header section -->
+    <header>
+        <h1>Transforming Careers: From Education to Tech</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="https://www.linkedin.com/in/katherinecunniffe">Linkedin</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <article>
+            <h2>Embracing New Challenges with Confidence</h2>
+            <p>Published on <time datetime="2023-05-16">May 16, 2023</time></p>
+            
+            <h3>Introduction</h3>
+            <p>Embarking on a journey of exploration, I found myself captivated by the boundless advancements unfolding in the world of technology. As my 15-year-long career in education gradually lost its allure, I sought to align my passions with the dynamic tech landscape. In this blog post, I'll share my transformative journey from teaching to tech.</p>
+            <h3>Unleashing Potential: From Teacher to Tech Professional</h3>
+            <p>In my former role as Head of Faculty for a Modern Foreign Languages department, I navigated the challenges of a demanding workload. Working three days a week as a teacher and fulfilling additional responsibilities as the Head of Faculty, I embraced the daily grind. However, a sense of diminishing returns compelled me to pursue a career that would allow me to channel my passion and dedication effectively.</p>
+        
+            <p>Driven by curiosity and a thirst for knowledge, I embarked on an immersive journey of research, leveraging my daily commute for audiobooks and podcasts that expanded my understanding of the tech landscape. Balancing work, family, and personal commitments, I dedicated myself to learning, taking crucial steps to acquire new skills.</p>
+
+            <p>With strategic planning and a focus on continuous growth, I embarked on the following pivotal actions:</p>
+            <ol>
+                <li>Expanding Knowledge: By delving into books and audiobooks, I tapped into the expertise of industry professionals and sought guidance from my mother, a seasoned computer programmer. This helped me gain a comprehensive understanding of various tech-related concepts.</li>
+                <li>Embracing Online Courses: Utilizing the flexibility of online learning platforms, I dived into JavaScript, aligning my studies with the prevalent job market demands. Online resources like Codecademy provided invaluable support, equipping me with a solid foundation.</li>
+                <li>Networking for Success: Recognizing the significance of community and collaboration, I actively engaged with work-related resources such as Software Cornwall and their Adult Tech Jam. These interactions served as transformative turning points, introducing me to Codecademy and steering my focus toward mastering Python.</li>
+            </ol>
+
+            <h3>Continuing the Journey: Embracing New Opportunities</h3>
+            <p>Python emerged as my language of choice, igniting a new level of enthusiasm and engagement. Each milestone I achieved instilled confidence, accelerating my progress and inspiring me to apply my skills in real-world scenarios. My journey has been defined by an unwavering commitment to continuous improvement and a resilient spirit that pushes me to embrace new challenges head-on.</p>
+        
+            <h3>Conclusion</h3>
+            <p>My transition from education to the ever-evolving world of tech has been an exhilarating voyage of self-discovery. Driven by a deep-rooted desire to make a meaningful impact, I have honed exceptional skills, cultivated adaptability, and nurtured a proactive, eager attitude that resonates with employers seeking motivated individuals with a strong work ethic. With every step forward, I embrace new opportunities and stand poised to contribute my talents to a tech landscape defined by constant innovation.
+                
+                Stay tuned for further updates as I navigate this thrilling career transformation. Together, let us seize the potential of technology, embracing growth, and creating a valuable impact in the ever-changing world of tech.
+                
+            </p>
+            <!-- Add more blog post content as needed -->
+        </article>
+
+        <!-- Add more articles or blog post excerpts as needed -->
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
