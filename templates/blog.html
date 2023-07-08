@@ -49,11 +49,33 @@
 
 /* CSS code for spacing around the text content */
 .main-content {
-    /* Adjust the top margin if necessary */
     margin-top: 0;
     margin-left: 0;
 }
 
+/* CSS code for the buttons */
+.button-container {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            background-color: #f5f5f5;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            border: 1px solid #ccc;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            font-family: Arial, sans-serif;
+        }
+
+        .button:hover {
+            background-color: #333;
+            color: #f5f5f5;
+        }
 
 </style>
     
@@ -65,13 +87,11 @@
     <!-- Header section -->
     <header>
         <h1>Transforming Careers: From Education to Tech</h1>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="https://www.linkedin.com/in/katherinecunniffe">Linkedin</a></li>
-                <!-- Add more navigation links as needed -->
-            </ul>
-        </nav>
+        <div class="button-container">
+            <a href="/" class="button">Profile</a>
+            <a href="https://www.linkedin.com/in/katherinecunniffe" class="button">LinkedIn</a>
+            <a href="https://github.com/kat750/youth_centre_23" class="button">GitHub</a>
+        </div>
     </header>
 
     <!-- Main content section -->
