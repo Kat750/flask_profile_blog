@@ -10,5 +10,9 @@ def home():
 def blog():
     return render_template('blog.html')
 
+@app.route('/CV')
+def CV():
+    return render_template('CV.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
